@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE urlrewrite PUBLIC "-//tuckey.org//DTD UrlRewrite 3.0//EN" "http://tuckey.org/res/dtds/urlrewrite3.0.dtd">
+
+<urlrewrite>
+	<rule enabled="true">
+		<name>機能：ログインページ</name>
+		<from>^/index(.*)$</from>
+		<to>/WEB-INF/index.xhtml$1</to>
+	</rule>
+	<rule enabled="true">
+		<name>機能：一覧</name>
+		<from>^/display(.*)$</from>
+		<to>/WEB-INF/display.xhtml$1</to>
+	</rule>
+</urlrewrite>
